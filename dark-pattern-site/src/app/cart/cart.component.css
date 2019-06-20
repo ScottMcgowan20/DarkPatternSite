@@ -1,0 +1,18 @@
+.header {
+text-align: center;
+}
+
+.amount {
+    font-size: 30px;
+}
+
+.total-amount {
+    text-align: center;
+    font-size: 30px;
+}
+
+.proceed {
+    display: block;
+    text-align: center;
+    font-size: 30px;
+}

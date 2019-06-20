@@ -1,0 +1,15 @@
+<div class="inquiry">
+    <span>Would you like to donate $1 to the Uganda Social Welfare Research Campaign?</span>
+</div>
+<div class="buttons">
+    <button class="sure-button" (click)="clickYes()">
+        Sure
+    </button>
+    <span class="link-esque" (click)="clickNo()">No thanks</span>
+</div>
+<div [hidden]="clicked != 1" class="centered">
+    <span>Sorry to say, but you just chose to donate $1 into the back pocket of the owner of this site!</span>
+</div>
+<div [hidden]="clicked != 2" class="centered">
+    <span>Good job! You chose to not donate to a cause which you knew nothing about!</span>
+</div>

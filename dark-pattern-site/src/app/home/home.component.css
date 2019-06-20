@@ -27,22 +27,27 @@
 
 .add-button {
     align-content: center;
-    margin-left: 90px;
+    /*margin-left: 90px;*/
 }
 
 .item-text {
     align-content: center;
-    margin-left: 70px;
+    /*margin-left: 70px;*/
 }
 
 .items-for-sale {
-    display: inline;
+    display: block;
+	margin: auto;
+	max-width: 80%;
+	text-align: center;
+	background-color: white;
 }
 
 .proceed-link {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    font-size: 30px;
+    font-size: 40px;
     padding:20px;
+	text-align: center;
 }
